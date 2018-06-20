@@ -2,7 +2,7 @@
 
 cwlVersion: v1.0
 class: CommandLineTool
-label: Create Output Data
+label: Write Output Files
 baseCommand: python
 
 requirements:

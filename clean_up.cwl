@@ -2,7 +2,7 @@
 
 cwlVersion: v1.0
 class: CommandLineTool
-label: Create Output Data
+label: Clean Up
 baseCommand: python
 
 requirements:
