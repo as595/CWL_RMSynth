@@ -1,0 +1,15 @@
+script:
+  class: File
+  path: make_input_data.py
+FITSfiles:
+  class: Directory
+  path: /Users/annascaife/SRC/PYRMSYNTH/CWL/NGC6251
+Step1_options:
+  class: File
+  path: Step1_options
+Step1_params:
+  class: File
+  path: Step1_params
+Step1_outputs:
+  class: File
+  path: Step1_outputs

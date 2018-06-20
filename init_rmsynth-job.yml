@@ -1,0 +1,6 @@
+script:
+  class: File
+  path: init_rmsynth.py
+Step2_params:
+  class: File
+  path: Step2_params
