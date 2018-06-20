@@ -1,0 +1,15 @@
+script:
+  class: File
+  path: make_output_data.py
+Step1_outputs:
+  class: File
+  path: Step1_outputs
+Step2_params:
+  class: File
+  path: Step2_params
+Step2_funcs:
+  class: File
+  path: Step2_funcs
+Step3_rms:
+  class: File
+  path: Step3_rms

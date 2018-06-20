@@ -1,0 +1,9 @@
+script:
+  class: File
+  path: clean_up.py
+Step1_outputs:
+  class: File
+  path: Step1_outputs
+Step5_funcs:
+  class: File
+  path: Step5_funcs
