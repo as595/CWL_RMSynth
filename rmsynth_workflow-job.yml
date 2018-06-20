@@ -1,0 +1,25 @@
+script1:
+  class: File
+  path: set_parameters.py
+flag: -s
+parfile:
+  class: File
+  path: NGC6251.par
+script2:
+  class: File
+  path: make_input_data.py
+script3:
+  class: File
+  path: init_rmsynth.py
+script4:
+  class: File
+  path: make_output_data.py
+script5:
+  class: File
+  path: write_output.py
+script6:
+  class: File
+  path: clean_up.py
+FITSfiles:
+  class: Directory
+  path: /Users/annascaife/SRC/PYRMSYNTH/CWL/NGC6251
